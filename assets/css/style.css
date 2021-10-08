@@ -7,6 +7,33 @@
 body {
     background-image: url(../img/backgroundImg.jpg);
     background-repeat: no-repeat;
-  
-    
 }
+
+.menu-navegacao {
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titulo-principal {
+    color: #fff;
+    font-family: 'Cinzel', serif;
+}
+
+.nav-list li {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-family:'Cinzel', serif;
+}
+
+
+
