@@ -9,31 +9,35 @@ body {
     background-repeat: no-repeat;
 }
 
-.menu-navegacao {
-    max-width: 80%;
-    margin: 0 auto;
+header {
+    max-width: 90%;
     border: 1px solid red;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .titulo-principal {
-    color: #fff;
-    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.nav-list {
+    border: 1px solid darkblue;
+    display: flex;
+    margin: 30px;
 }
 
 .nav-list li {
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
 }
 
 .nav-list li a {
     text-decoration: none;
-    color: #fff;
-    font-family:'Cinzel', serif;
+    padding: 30px;
+    color: white;
 }
+
+
 
 
 
