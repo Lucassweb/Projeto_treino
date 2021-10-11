@@ -11,33 +11,74 @@ body {
 
 header {
     max-width: 90%;
-    border: 1px solid red;
     display: flex;
     align-items: center;
     margin: 0 auto;
 }
 
 .titulo-principal {
+    margin-right: 80px;
     color: white;
+    font-family: 'Monoton', cursive;
 }
 
 .nav-list {
-    border: 1px solid darkblue;
     display: flex;
-    margin: 30px;
+    margin: 15px;
+    font-family: 'Monoton', cursive;
 }
 
 .nav-list li {
+    display: flex;
     list-style: none;
+    padding: 30px;
+    
 }
 
 .nav-list li a {
     text-decoration: none;
-    padding: 30px;
     color: white;
 }
 
+.container {
+    margin-top: 15%;
+    margin-left: 16%;
+}
 
+.tex-article {
+    display: flex;
+    display: inline-block;
+}
 
+.tex-article h1 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    color: grey;
+    font-size: 2em;
+    letter-spacing: 10px;
+}
 
+.tex-article h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    margin-left: 5px;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+
+.tex-article p {
+    margin-left: 5px;
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+
+.bottom a {
+    padding-top: 30px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
 
