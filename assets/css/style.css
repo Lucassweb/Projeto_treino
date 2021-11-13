@@ -2,11 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-image: url(../img/backgroundImg.jpg);
-    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -15,6 +11,13 @@ header {
     align-items: center;
     margin: 0 auto;
 }
+
+.img {
+    background-image: url(../img/backgroundImg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 
 .titulo-principal {
     margin-right: 80px;
@@ -82,3 +85,248 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
+.segundo-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cabecalho-h2 {
+    max-width: 100%;
+}
+
+.cabecalho-h2 h1 {
+    margin-top: 90px;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho-h2 h1 span {
+    color: darkmagenta;
+}
+
+.png-sing {
+    width: 60px;
+    height: 60px;
+}
+
+.filho-do-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between; 
+}
+
+.img-png {
+    display: flex;
+    flex-basis: 31%;
+    margin-bottom: 100px;
+}
+
+.segundo-teste h2 {
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+
+.segundo-teste p {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 6px;
+    color: slategrey;
+}
+
+.projet {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+   
+}
+
+.projet span {
+    flex-basis: calc(100% - 20%);
+    margin-bottom: 50px;
+    border-bottom: 2px solid darkorchid ;
+}
+
+.projet h2 {
+    position: relative;
+    top: -25px;
+    padding: 0 15px;
+    font-size: 2.8em;
+}
+
+.quadros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quadros img {
+    height: 200px;
+    flex-basis: 25%;
+    margin-bottom: 100px;
+}
+
+.exp {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.exp span {
+    flex-basis: calc(100% - 20%);
+    margin-bottom: 50px;
+    border-bottom: 2px solid darkmagenta;
+}
+
+.exp h2 {
+    position: relative;
+    top: -25px;
+    padding: 0 15px;
+    font-size: 2.2em;
+}
+
+.container-exp {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+/*Jane seo-fouder*/
+
+.programador-seo-founder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+ .programador-seo-founder img {
+    border-radius: 100%;
+    align-self: center;
+    width: 140px;
+    margin-top: 25px;
+}
+
+.programador-seo-founder h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.programador-seo-founder h2 {
+    font-size: 15px;
+    color: darkviolet;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.programador-seo-founder p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+/*Sawn programmer*/
+
+.programador-programmer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px 100px 150px 70px;
+    background-color: palevioletred;  
+}
+
+.programador-programmer h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+.programador-programmer p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+    
+}
+
+.programador-programmer img {
+    border-radius: 100%;
+    align-self: center;
+    width: 100%;
+}
+
+.programador-programmer .icons {
+    width: 30px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    margin-left: 10px;
+} 
+
+
+/* Mia */
+
+.programador-designer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.programador-designer img {
+    align-self: center;
+    width: 160px;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
+.programador-designer h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+
+.programador-designer h2 {
+    font-size: 15px;
+    color: darkviolet;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.programador-designer p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/*Our new - nosso - novo*/
+
+.nosso {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.nosso span {
+    flex-basis: calc(100% - 20%);
+    margin-bottom: 50px;
+    border-bottom: 2px solid darkmagenta;
+}
+
+.nosso h2 {
+    position: relative;
+    top: -15px;
+    padding: 0 15px;
+    font-size: 2.2em;
+}
+
+.container-nosso {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
